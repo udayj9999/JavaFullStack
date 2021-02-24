@@ -5,13 +5,14 @@ public class Test {
         System.out.println("hello");
 
     }
-    public int display(){
-        return 3;
+    public int display(int i){
+        System.out.println(i);
+        return i;
     }
 
     public static void main(String[] args) {
         Test test=new Test();
         test.addition();
-        test.display();
+       test.display(7);
     }
 }
