@@ -21,11 +21,3 @@ public class IfElseDemo {
 //       System.out.println("c greater");
 //
 //   }
-
-   //Nested if
-        int age = 18;
-        String nationality = "Indian";
-
-        if(age>=18){
-   }
-}
