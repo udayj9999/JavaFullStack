@@ -11,7 +11,7 @@ public class IfElseDemo {
         }
     }
 }
-    int a=123,b=25,c=432;
+//    int a=123,b=25,c=432;
 
 //   if(a>b && a>c){
 //       System.out.println("a is greater");
