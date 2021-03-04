@@ -32,3 +32,6 @@ class CatInterface implements AnimalInterface {
         System.out.println("Mauu...");
     }
 }
+// normal two or more
+// functional only one
+// marker no method

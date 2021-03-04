@@ -1,6 +1,6 @@
 package polymorphism;
 
-public class MethodOverloadingDemo {
+public class MethodOverloadingDemo {     //static binding , compile time polymorphism
 
     int c=0;
     public static void main(String[] args) {
@@ -32,7 +32,7 @@ public class MethodOverloadingDemo {
 
 }
 
-class MethodOverriding extends MethodOverloadingDemo {
+class MethodOverriding extends MethodOverloadingDemo {    // dynamic binding , runtime polymorphism
 
     public static void main(String[] args) {
         MethodOverriding methodOverriding = new MethodOverriding();
