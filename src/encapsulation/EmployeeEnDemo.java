@@ -9,7 +9,6 @@ public class EmployeeEnDemo {
     public int getId(){
         return id;
     }
-
     public void setId(int id){
         this.id=id;
     }
@@ -17,7 +16,6 @@ public class EmployeeEnDemo {
     public String getName(){
         return name;
     }
-
     public void setName(String name){
         this.name = name;
     }
@@ -25,11 +23,10 @@ public class EmployeeEnDemo {
     public String getAdd(){
         return add;
     }
-
-
     public void setAdd(String add){
         this.add = add;
     }
+
     public static void main(String[] args) {
 
         EmployeeEnDemo employeeEnDemo = new EmployeeEnDemo();
